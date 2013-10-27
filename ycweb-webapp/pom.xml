@@ -16,7 +16,11 @@
 
 	<dependencies>
 		<!-- Add your project specific dependencies here: -->
-
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+		
 		<dependency>
 			<groupId>info.magnolia</groupId>
 			<artifactId>magnolia-empty-webapp</artifactId>
