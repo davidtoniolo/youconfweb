@@ -4,9 +4,9 @@
   <DataSources>
     <DataSource name="magnolia">
       <param name="driver" value="com.mysql.jdbc.Driver" />
-      <param name="url" value="jdbc:mysql://youconfweb.development:3306/youconfwebcms" />
-      <param name="user" value="magnolia" />
-      <param name="password" value="magnolia" />
+      <param name="url" value="jdbc:mysql://youconfweb.dbhost:3306/youconfwebcms" />
+      <param name="user" value="youconfwebcms" />
+      <param name="password" value="youconfwebcms" />
       <param name="databaseType" value="mysql"/>
       <param name="validationQuery" value="select 1"/>
     </DataSource>

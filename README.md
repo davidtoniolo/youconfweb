@@ -11,9 +11,9 @@ Partner projects: [youconfws](https://github.com/davidtoniolo/youconfws) & [youc
 Prepare, install, deploy & run
 ==============================
 
-Edit your hosts (local DNS) file. Replace with IP of your database host IP:
+Edit your hosts (local DNS) file. Replace xxx with IP of your database host IP:
 
-	xxx.xxx.xxx.xxx youconfweb.development
+	xxx.xxx.xxx.xxx youconfweb.dbhost
 	127.0.0.1 youconfweb.development
 
 
