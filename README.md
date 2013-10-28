@@ -1,7 +1,11 @@
 youconfweb
 ==========
 
-Homepage based on Magnolia CMS 5.0
+Homepage based on Magnolia CMS 5
+
+Author: David Toniolo <youconfapp@unittestcloud.com>
+
+Partner projects: [youconfws](https://github.com/davidtoniolo/youconfws) & [youconfapp](https://github.com/davidtoniolo/youconfapp) 
 
 
 Prepare, install, deploy & run
