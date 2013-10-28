@@ -10,7 +10,7 @@
 	<packaging>pom</packaging>
 
 	<properties>
-		<magnoliaVersion>5.0</magnoliaVersion>
+		<magnoliaVersion>5.1.1</magnoliaVersion>
 		<javaVersion>1.5</javaVersion>
 		<mysqlConnectorVersion>5.1.26</mysqlConnectorVersion>
 	</properties>
