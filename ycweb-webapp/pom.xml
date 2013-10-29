@@ -15,6 +15,13 @@
 	<packaging>war</packaging>
 
 	<dependencies>
+
+		<dependency>
+			<groupId>com.unittestcloud</groupId>
+			<artifactId>ycweb-demo</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
 		<!-- Add your project specific dependencies here: -->
 		<dependency>
 			<groupId>info.magnolia.blossom</groupId>
