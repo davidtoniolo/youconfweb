@@ -17,10 +17,23 @@
 	<dependencies>
 		<!-- Add your project specific dependencies here: -->
 		<dependency>
+			<groupId>info.magnolia.blossom</groupId>
+			<artifactId>magnolia-module-blossom</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>info.magnolia.ui</groupId>
+			<artifactId>magnolia-ui-admincentral</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>info.magnolia.ui</groupId>
+			<artifactId>magnolia-ui-framework</artifactId>
+		</dependency>
+
+		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>info.magnolia</groupId>
 			<artifactId>magnolia-empty-webapp</artifactId>

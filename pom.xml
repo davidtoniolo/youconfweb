@@ -13,6 +13,7 @@
 		<magnoliaVersion>5.1.1</magnoliaVersion>
 		<javaVersion>1.5</javaVersion>
 		<mysqlConnectorVersion>5.1.26</mysqlConnectorVersion>
+		<blossomVersion>3.0</blossomVersion>
 	</properties>
 
 	<!-- Fill the following in, so you can use the release plugin -->
@@ -21,13 +22,28 @@
 
 	<dependencyManagement>
 		<dependencies>
-		
+			<dependency>
+				<groupId>info.magnolia.blossom</groupId>
+				<artifactId>magnolia-module-blossom</artifactId>
+				<version>${blossomVersion}</version>
+			</dependency>
+			<dependency>
+				<groupId>info.magnolia.ui</groupId>
+				<artifactId>magnolia-ui-admincentral</artifactId>
+				<version>5.1.1</version>
+			</dependency>
+			<dependency>
+				<groupId>info.magnolia.ui</groupId>
+				<artifactId>magnolia-ui-framework</artifactId>
+				<version>5.1.1</version>
+			</dependency>
+
 			<dependency>
 				<groupId>mysql</groupId>
 				<artifactId>mysql-connector-java</artifactId>
 				<version>${mysqlConnectorVersion}</version>
 			</dependency>
-			
+
 			<dependency>
 				<groupId>info.magnolia</groupId>
 				<artifactId>magnolia-empty-webapp</artifactId>
