@@ -30,12 +30,12 @@
 			<dependency>
 				<groupId>info.magnolia.ui</groupId>
 				<artifactId>magnolia-ui-admincentral</artifactId>
-				<version>5.1.1</version>
+				<version>${magnoliaVersion}</version>
 			</dependency>
 			<dependency>
 				<groupId>info.magnolia.ui</groupId>
 				<artifactId>magnolia-ui-framework</artifactId>
-				<version>5.1.1</version>
+				<version>${magnoliaVersion}</version>
 			</dependency>
 
 			<dependency>
