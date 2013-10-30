@@ -9,6 +9,6 @@
    <body>
       <h1>${content.title!}</h1>
       
-      Time: ${model.getCurrenttime()}
+      Time: ${model.getCurrentTime()}
    </body>
 </html>
