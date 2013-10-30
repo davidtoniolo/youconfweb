@@ -8,5 +8,7 @@
    </head>
    <body>
       <h1>${content.title!}</h1>
+      
+      Time: ${model.getCurrenttime()}
    </body>
 </html>
