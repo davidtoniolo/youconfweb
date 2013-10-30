@@ -11,5 +11,10 @@
 		<h1>${content.title!}</h1>
 
 		Time: ${model.getCurrentTime()}
+		
+		START area main
+		[@cms.area name="main" /]
+		END area main
+		
 	</body>
 </html>
