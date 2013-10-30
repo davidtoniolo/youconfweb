@@ -60,10 +60,13 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2013-10-30T11:35:01.209+01:00</sv:value>
+        <sv:value>2013-10-30T16:11:23.979+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="modelClass" sv:type="String">
+        <sv:value>com.unittestcloud.ycweb.demo.template.HelloModel</sv:value>
       </sv:property>
       <sv:property sv:name="renderType" sv:type="String">
         <sv:value>freemarker</sv:value>
