@@ -19,8 +19,8 @@ Edit your hosts (local DNS) file. Replace xxx with IP of your database host IP:
 
 Setup MySQL backend:
 
-1. Create the DB user with: /INSTALL/sql/1_create_database_user.sql
-2. Create database, tables and import data: /INSTALL/sql/2_create_and_import_database_youconfwebcms.sql
+1. Create the DB user with: /SETUP/mysql/1_create_database_user.sql
+2. Create database, tables and import data: /SETUP/mysql/2_create_and_import_database_youconfwebcms.sql
 
 
 Build submodules and run the webapp with jetty:
