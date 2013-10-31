@@ -49,3 +49,4 @@ This project uses the following great software:
 [Magnolia CMS](http://www.magnolia-cms.com)
 [MySQL](http://www.mysql.de)
 [Apache Maven](http://maven.apache.org)
+[AngularJS](http://angularjs.org)
