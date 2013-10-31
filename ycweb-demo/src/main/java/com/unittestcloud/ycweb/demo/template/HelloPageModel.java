@@ -11,9 +11,9 @@ import javax.jcr.Node;
  * @author davidtoniolo
  * 
  */
-public class HelloModel extends RenderingModelImpl {
+public class HelloPageModel extends RenderingModelImpl {
 
-	public HelloModel(Node content, RenderableDefinition definition,
+	public HelloPageModel(Node content, RenderableDefinition definition,
 			RenderingModel parent) {
 		super(content, definition, parent);
 		// TODO Auto-generated constructor stub
