@@ -18,7 +18,7 @@
 
 		<dependency>
 			<groupId>com.unittestcloud</groupId>
-			<artifactId>ycweb-demo</artifactId>
+			<artifactId>ycweb-visualization</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		
@@ -29,11 +29,11 @@
 		</dependency>
 		<dependency>
 			<groupId>info.magnolia.ui</groupId>
-			<artifactId>magnolia-ui-admincentral</artifactId>
+			<artifactId>magnolia-ui-framework</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>info.magnolia.ui</groupId>
-			<artifactId>magnolia-ui-framework</artifactId>
+			<artifactId>magnolia-ui-admincentral</artifactId>
 		</dependency>
 
 		<dependency>

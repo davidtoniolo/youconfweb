@@ -1,4 +1,4 @@
-package com.unittestcloud.ycweb.demo.template;
+package com.unittestcloud.ycweb.visualization.template;
 
 import info.magnolia.rendering.model.RenderingModel;
 import info.magnolia.rendering.model.RenderingModelImpl;

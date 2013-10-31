@@ -129,6 +129,6 @@
 
 	<modules>
 		<module>ycweb-webapp</module>
-		<module>ycweb-demo</module>
+		<module>ycweb-visualization</module>
 	</modules>
 </project>

@@ -6,7 +6,7 @@
 
   <context:annotation-config/>
 
-  <context:component-scan base-package="com.unittestcloud.ycweb.demo" use-default-filters="false">
+  <context:component-scan base-package="com.unittestcloud.ycweb.visualization" use-default-filters="false">
     <context:include-filter type="annotation" expression="info.magnolia.module.blossom.annotation.Template"/>
     <context:include-filter type="annotation" expression="info.magnolia.module.blossom.annotation.Area"/>
     <context:include-filter type="annotation" expression="info.magnolia.module.blossom.annotation.DialogFactory"/>
@@ -36,7 +36,7 @@
   <!-- JSP - renders all views that end with .jsp -->
   <bean class="info.magnolia.module.blossom.view.TemplateViewResolver">
     <property name="order" value="2"/>
-    <property name="prefix" value="/ycweb-demo/templates/"/>
+    <property name="prefix" value="/ycweb-visualization/templates/"/>
     <property name="viewNames" value="*.jsp"/>
     <property name="viewRenderer">
       <bean class="info.magnolia.module.blossom.view.JspTemplateViewRenderer"/>
@@ -46,7 +46,7 @@
   <!-- Freemarker - renders all views that end with .ftl -->
   <bean class="info.magnolia.module.blossom.view.TemplateViewResolver">
     <property name="order" value="3"/>
-    <property name="prefix" value="/ycweb-demo/templates/"/>
+    <property name="prefix" value="/ycweb-visualization/templates/"/>
     <property name="viewNames" value="*.ftl"/>
     <property name="viewRenderer">
       <bean class="info.magnolia.module.blossom.view.FreemarkerTemplateViewRenderer">

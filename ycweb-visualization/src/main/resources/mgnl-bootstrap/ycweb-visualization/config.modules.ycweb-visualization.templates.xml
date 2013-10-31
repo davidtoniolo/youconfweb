@@ -16,7 +16,7 @@
     <sv:value>superuser</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-    <sv:value>2013-10-30T18:05:18.962+01:00</sv:value>
+    <sv:value>2013-10-31T12:23:42.504+01:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
     <sv:value>superuser</sv:value>
@@ -38,7 +38,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2013-10-30T11:30:17.129+01:00</sv:value>
+      <sv:value>2013-10-31T12:23:42.495+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -60,19 +60,19 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2013-10-30T17:47:52.315+01:00</sv:value>
+        <sv:value>2013-10-31T12:28:34.853+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="modelClass" sv:type="String">
-        <sv:value>com.unittestcloud.ycweb.demo.template.HelloModel</sv:value>
+        <sv:value>com.unittestcloud.ycweb.visualization.template.HelloPageModel</sv:value>
       </sv:property>
       <sv:property sv:name="renderType" sv:type="String">
         <sv:value>freemarker</sv:value>
       </sv:property>
       <sv:property sv:name="templateScript" sv:type="String">
-        <sv:value>/templates/ycweb-demo/pages/hello.ftl</sv:value>
+        <sv:value>/templates/ycweb-visualization/pages/hello.ftl</sv:value>
       </sv:property>
       <sv:property sv:name="title" sv:type="String">
         <sv:value>Hello world</sv:value>
@@ -94,7 +94,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-          <sv:value>2013-10-30T17:47:17.895+01:00</sv:value>
+          <sv:value>2013-10-31T12:23:42.495+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -116,13 +116,13 @@
             <sv:value>superuser</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-            <sv:value>2013-10-30T18:06:38.092+01:00</sv:value>
+            <sv:value>2013-10-31T12:25:22.529+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
             <sv:value>superuser</sv:value>
           </sv:property>
           <sv:property sv:name="templateScript" sv:type="String">
-            <sv:value>/templates/ycweb-demo/areas/mainArea.ftl</sv:value>
+            <sv:value>/templates/ycweb-visualization/areas/mainArea.ftl</sv:value>
           </sv:property>
           <sv:property sv:name="type" sv:type="String">
             <sv:value>list</sv:value>
@@ -144,7 +144,7 @@
               <sv:value>superuser</sv:value>
             </sv:property>
             <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-              <sv:value>2013-10-30T17:53:42.300+01:00</sv:value>
+              <sv:value>2013-10-31T12:23:42.495+01:00</sv:value>
             </sv:property>
             <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
               <sv:value>superuser</sv:value>
@@ -157,7 +157,7 @@
                 <sv:value>f093224d-10cd-4e85-a536-fdc7d6c8ffd2</sv:value>
               </sv:property>
               <sv:property sv:name="id" sv:type="String">
-                <sv:value>ycweb-demo:components/textBlock</sv:value>
+                <sv:value>ycweb-visualization:components/textBlock</sv:value>
               </sv:property>
               <sv:property sv:name="jcr:createdBy" sv:type="String">
                 <sv:value>admin</sv:value>
@@ -169,7 +169,7 @@
                 <sv:value>superuser</sv:value>
               </sv:property>
               <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-                <sv:value>2013-10-30T18:05:07.227+01:00</sv:value>
+                <sv:value>2013-10-31T12:25:46.835+01:00</sv:value>
               </sv:property>
               <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
                 <sv:value>superuser</sv:value>
@@ -197,7 +197,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2013-10-30T18:05:30.675+01:00</sv:value>
+      <sv:value>2013-10-31T12:23:42.495+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -210,7 +210,7 @@
         <sv:value>152faf26-93bb-437e-96e2-471ee206879f</sv:value>
       </sv:property>
       <sv:property sv:name="dialog" sv:type="String">
-        <sv:value>ycweb-demo:textBlock</sv:value>
+        <sv:value>ycweb-visualization:textBlock</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:createdBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -222,7 +222,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2013-10-30T18:07:14.450+01:00</sv:value>
+        <sv:value>2013-10-31T12:26:42.596+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -231,7 +231,7 @@
         <sv:value>freemarker</sv:value>
       </sv:property>
       <sv:property sv:name="templateScript" sv:type="String">
-        <sv:value>/templates/ycweb-demo/components/textBlock.ftl</sv:value>
+        <sv:value>/templates/ycweb-visualization/components/textBlock.ftl</sv:value>
       </sv:property>
       <sv:property sv:name="title" sv:type="String">
         <sv:value>Text Block</sv:value>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE module SYSTEM "module.dtd" >
 <module>
-	<name>ycweb-demo</name>
+	<name>ycweb-visualization</name>
 	<displayName>${project.name}</displayName>
 	<description>${project.description}</description>
-	<class>com.unittestcloud.ycweb.demo.Demo</class>
-	<versionHandler>com.unittestcloud.ycweb.demo.setup.DemoVersionHandler</versionHandler>
+	<class>com.unittestcloud.ycweb.visualization.YcwebVisualization</class>
+	<versionHandler>com.unittestcloud.ycweb.visualization.setup.YcwebVisualizationVersionHandler</versionHandler>
 	<version>${project.version}</version>
 
 	<dependencies>
@@ -36,7 +36,7 @@
 		<repository>
 			<name>magnolia</name>
 			<workspaces>
-				<workspace>ycwebdemo</workspace>
+				<workspace>ycwebvisualization</workspace>
 			</workspaces>
 		</repository>
 	</repositories>

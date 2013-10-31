@@ -1,4 +1,4 @@
-package com.unittestcloud.ycweb.demo.setup;
+package com.unittestcloud.ycweb.visualization.setup;
 
 import info.magnolia.module.DefaultModuleVersionHandler;
 
@@ -7,6 +7,6 @@ import info.magnolia.module.DefaultModuleVersionHandler;
  * by registering "deltas" to maintain the module's configuration, or other type of content.
  * If you don't need this, simply remove the reference to this class in the module descriptor xml.
  */
-public class DemoVersionHandler extends DefaultModuleVersionHandler {
+public class YcwebVisualizationVersionHandler extends DefaultModuleVersionHandler {
 
 }
