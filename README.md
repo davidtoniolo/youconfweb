@@ -30,8 +30,15 @@ Build submodules and run the webapp with jetty:
 	cd <your-local-path>/youconfweb/ycweb-webapp
 	mvn jetty:run-war
 
-
 Ready! Magnolia CMS should run on http://youconfweb.development:8080
+
+At first, you will see the installation screen of Magnolia, because the SQL dump does not include the ycweb-visualization module. 
+So start the module installation and after that you can login with the standard user:
+
+Username: superuser
+Password: superuser
+
+Now you're logged in on the Author instance of Magnolia CMS.
 
 
 Open Source Software
