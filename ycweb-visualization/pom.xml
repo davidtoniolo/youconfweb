@@ -19,6 +19,7 @@
 		<magnoliaVersion>5.1.1</magnoliaVersion>
 		<javaVersion>1.5</javaVersion>
 		<springVersion>3.1.4.RELEASE</springVersion>
+		<blossomVersion>3.0</blossomVersion>
 	</properties>
 
 	<dependencies>
@@ -45,7 +46,7 @@
 		<dependency>
 			<groupId>info.magnolia.blossom</groupId>
 			<artifactId>magnolia-module-blossom</artifactId>
-			<version>3.0</version>
+			<version>${blossomVersion}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
