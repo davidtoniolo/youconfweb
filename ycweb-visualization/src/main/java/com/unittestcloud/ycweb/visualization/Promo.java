@@ -1,5 +1,5 @@
 /**
- * This file Copyright (c) 2010-2013 Magnolia International
+ * This file Copyright (c) 2013 Magnolia International
  * Ltd.  (http://www.magnolia-cms.com). All rights reserved.
  *
  *
@@ -31,52 +31,21 @@
  * intact.
  *
  */
-package com.unittestcloud.ycweb.project.service;
+package com.unittestcloud.ycweb.visualization;
 
+import info.magnolia.module.blossom.annotation.ComponentCategory;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
 
 /**
- * A tour is a product.
+ * Component category annotation, all components annotated with it will be available in the promos area of
+ * {@link MainTemplate}.
  */
-public class Tour implements Product {
-
-    private String articleCode;
-    private String name;
-    private String description;
-    private int price;
-
-    public String getTitle() {
-        return name;
-    }
-
-    public String getArticleCode() {
-        return articleCode;
-    }
-
-    public void setArticleCode(String articleCode) {
-        this.articleCode = articleCode;
-    }
-
-    public int getPrice() {
-        return price;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.TYPE)
+@ComponentCategory
+public @interface Promo {
 }

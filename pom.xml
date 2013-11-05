@@ -65,14 +65,7 @@
 					scope:import for now -->
 				<!--<scope>import</scope> -->
 			</dependency>
-			<dependency>
-				<!-- only necessary until MAGNOLIA-3545 is resolved -->
-				<groupId>info.magnolia</groupId>
-				<artifactId>magnolia-project</artifactId>
-				<version>${magnoliaVersion}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
+
 			<dependency>
 				<groupId>info.magnolia</groupId>
 				<artifactId>magnolia-module-legacy-admininterface</artifactId>
@@ -139,6 +132,6 @@
 
 	<modules>
 		<module>ycweb-webapp</module>
-		<module>ycweb-project</module>
+		<module>ycweb-visualization</module>
 	</modules>
 </project>

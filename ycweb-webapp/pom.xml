@@ -16,13 +16,6 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>com.unittestcloud</groupId>
-			<artifactId>ycweb-project</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-		
-		<!-- Add your project specific dependencies here: -->
-		<dependency>
 			<groupId>info.magnolia.blossom</groupId>
 			<artifactId>magnolia-module-blossom</artifactId>
 		</dependency>
@@ -38,7 +31,7 @@
 			<groupId>info.magnolia.ui</groupId>
 			<artifactId>magnolia-ui-contentapp</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
@@ -53,6 +46,12 @@
 			<groupId>info.magnolia</groupId>
 			<artifactId>magnolia-empty-webapp</artifactId>
 			<type>war</type>
+		</dependency>
+
+		<dependency>
+			<groupId>com.unittestcloud</groupId>
+			<artifactId>ycweb-visualization</artifactId>
+			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
 

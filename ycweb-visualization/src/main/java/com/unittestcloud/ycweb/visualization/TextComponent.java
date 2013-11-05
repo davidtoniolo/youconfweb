@@ -31,16 +31,10 @@
  * intact.
  *
  */
-package com.unittestcloud.ycweb.project;
+package com.unittestcloud.ycweb.visualization;
 
-import java.util.Collection;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import com.unittestcloud.ycweb.project.service.SalesApplicationWebService;
 
 import info.magnolia.module.blossom.annotation.TabFactory;
 import info.magnolia.module.blossom.annotation.Template;
@@ -48,35 +42,25 @@ import info.magnolia.module.blossom.annotation.TemplateDescription;
 import info.magnolia.ui.form.config.TabBuilder;
 import info.magnolia.ui.framework.config.UiConfig;
 
-import javax.jcr.Node;
-import javax.jcr.RepositoryException;
-
 /**
- * Component that renders a list of the books in a configurable category. The available categories
- * are fetched from the SalesApplicationWebService and the editor can then select which one should be
- * displayed.
+ * Simple component for adding text to a page.
  */
-@Template(title = "Book category", id = "ycweb-project:components/bookCategory")
-@TemplateDescription("A list of the books for a certain category.")
 @Controller
+@Template(title = "Text", id = "ycweb-visualization:components/text")
+@TemplateDescription("Simple text block")
 @Promo
-public class BookCategoryComponent {
+public class TextComponent {
 
-    @Autowired
-    private SalesApplicationWebService service;
-
-    @RequestMapping("/bookcategory")
-    public String render(ModelMap model, Node content) throws RepositoryException {
-        String category = content.getProperty("category").getString();
-        model.put("books", service.getBooksInCategory(category));
-        return "components/bookCategory.jsp";
+    @RequestMapping("/text")
+    public String render() {
+        return "components/text.jsp";
     }
 
     @TabFactory("Content")
     public void contentTab(UiConfig cfg, TabBuilder tab) {
-        Collection<String> categories = service.getBookCategories();
         tab.fields(
-                cfg.fields.select("category").label("Category").options(categories)
+                cfg.fields.text("heading").label("Heading"),
+                cfg.fields.richText("body").label("Text body")
         );
     }
 }

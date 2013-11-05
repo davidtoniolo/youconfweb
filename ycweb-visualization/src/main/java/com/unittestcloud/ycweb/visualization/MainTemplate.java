@@ -31,7 +31,7 @@
  * intact.
  *
  */
-package com.unittestcloud.ycweb.project;
+package com.unittestcloud.ycweb.visualization;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -58,7 +58,7 @@ import info.magnolia.ui.framework.config.UiConfig;
  * Template with two columns, a main content area and a right side column.
  */
 @Controller
-@Template(title = "Main", id = "ycweb-project:pages/main")
+@Template(title = "Main", id = "ycweb-visualization:pages/main")
 public class MainTemplate {
 
     /**
@@ -66,7 +66,7 @@ public class MainTemplate {
      */
     @Area("main")
     @Controller
-    @AvailableComponentClasses({TextComponent.class, BookComponent.class, TourComponent.class, CommentsComponent.class, ViewShoppingCartComponent.class, PurchaseComponent.class, ContactFormComponent.class, YoutubeComponent.class, TwoColumnComponent.class})
+    @AvailableComponentClasses({TextComponent.class})
     public static class MainArea {
 
         @RequestMapping("/mainTemplate/main")
