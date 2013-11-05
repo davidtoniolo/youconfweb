@@ -7,7 +7,6 @@
 		<groupId>com.unittestcloud</groupId>
 		<artifactId>ycweb</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>../pom.xml</relativePath>
 	</parent>
 
 	<artifactId>ycweb-webapp</artifactId>
@@ -18,8 +17,8 @@
 
 		<dependency>
 			<groupId>com.unittestcloud</groupId>
-			<artifactId>ycweb-visualization</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<artifactId>ycweb-project</artifactId>
+			<version>${project.version}</version>
 		</dependency>
 		
 		<!-- Add your project specific dependencies here: -->
@@ -35,7 +34,11 @@
 			<groupId>info.magnolia.ui</groupId>
 			<artifactId>magnolia-ui-admincentral</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>info.magnolia.ui</groupId>
+			<artifactId>magnolia-ui-contentapp</artifactId>
+		</dependency>
+		
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>

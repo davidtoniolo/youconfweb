@@ -11,7 +11,8 @@
 
 	<properties>
 		<magnoliaVersion>5.1.1</magnoliaVersion>
-		<javaVersion>1.5</javaVersion>
+		<springVersion>3.2.4.RELEASE</springVersion>
+		<javaVersion>1.6</javaVersion>
 		<mysqlConnectorVersion>5.1.26</mysqlConnectorVersion>
 		<blossomVersion>3.0</blossomVersion>
 	</properties>
@@ -35,6 +36,11 @@
 			<dependency>
 				<groupId>info.magnolia.ui</groupId>
 				<artifactId>magnolia-ui-framework</artifactId>
+				<version>${magnoliaVersion}</version>
+			</dependency>
+			<dependency>
+				<groupId>info.magnolia.ui</groupId>
+				<artifactId>magnolia-ui-contentapp</artifactId>
 				<version>${magnoliaVersion}</version>
 			</dependency>
 
@@ -67,7 +73,12 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
-
+			<dependency>
+				<groupId>info.magnolia</groupId>
+				<artifactId>magnolia-module-legacy-admininterface</artifactId>
+				<version>5.1</version>
+			</dependency>
+			
 			<!-- TEST -->
 			<dependency>
 				<groupId>junit</groupId>
@@ -77,7 +88,6 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
 
 	<build>
 		<plugins>
@@ -129,6 +139,6 @@
 
 	<modules>
 		<module>ycweb-webapp</module>
-		<module>ycweb-visualization</module>
+		<module>ycweb-project</module>
 	</modules>
 </project>
