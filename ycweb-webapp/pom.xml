@@ -31,7 +31,11 @@
 			<groupId>info.magnolia.ui</groupId>
 			<artifactId>magnolia-ui-contentapp</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>info.magnolia.dam</groupId>
+			<artifactId>magnolia-dam</artifactId>
+		</dependency>
+		
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
@@ -50,7 +54,7 @@
 
 		<dependency>
 			<groupId>com.unittestcloud</groupId>
-			<artifactId>ycweb-visualization</artifactId>
+			<artifactId>ycweb-project</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 	</dependencies>

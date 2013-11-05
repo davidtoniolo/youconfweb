@@ -20,7 +20,7 @@ Edit your hosts (local DNS) file. Replace xxx with IP of your database host IP:
 Setup MySQL backend:
 
 1. Create the DB user with: /SETUP/mysql/1_create_database_user.sql
-2. Create database, tables and import data: /SETUP/mysql/2_create_and_import_database_youconfwebcms.sql
+2. Create database, tables and import data: /SETUP/mysql/2_install_magnolia.sql
 
 
 Build submodules and run the webapp with jetty:
@@ -32,7 +32,7 @@ Build submodules and run the webapp with jetty:
 
 Ready! Magnolia CMS should run on http://youconfweb.development:8080
 
-At first, you will see the installation screen of Magnolia, because the SQL dump does not include the ycweb-visualization module. 
+At first, you will see the installation screen of Magnolia, because the SQL dump does not include the ycweb-project module. 
 So start the module installation and after that you can login with the standard user:
 
 Username: superuser

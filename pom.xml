@@ -71,7 +71,12 @@
 				<artifactId>magnolia-module-legacy-admininterface</artifactId>
 				<version>5.1</version>
 			</dependency>
-			
+			<dependency>
+				<groupId>info.magnolia.dam</groupId>
+				<artifactId>magnolia-dam</artifactId>
+				<version>1.1</version>
+			</dependency>
+
 			<!-- TEST -->
 			<dependency>
 				<groupId>junit</groupId>
@@ -132,6 +137,6 @@
 
 	<modules>
 		<module>ycweb-webapp</module>
-		<module>ycweb-visualization</module>
+		<module>ycweb-project</module>
 	</modules>
 </project>
