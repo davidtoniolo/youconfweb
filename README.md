@@ -23,7 +23,7 @@ Magnolia module. Main project/website.
 ycweb-searchserver
 ==================
 
-Apache Solr Search Server.
+Apache Solr Search Server with multi core configuration.
 
 
 Prepare, install, deploy & run
