@@ -138,5 +138,6 @@
 	<modules>
 		<module>ycweb-webapp</module>
 		<module>ycweb-project</module>
+		<module>ycweb-searchserver</module>
 	</modules>
 </project>
