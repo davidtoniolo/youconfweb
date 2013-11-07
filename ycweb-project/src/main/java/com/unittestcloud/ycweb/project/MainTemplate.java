@@ -101,7 +101,7 @@ public class MainTemplate {
         }
         model.put("navigation", navigation);
 
-        return "pages/main.jsp";
+        return "pages/main.ftl";
     }
 
     @TabFactory("Content")

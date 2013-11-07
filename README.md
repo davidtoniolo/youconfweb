@@ -91,3 +91,4 @@ This project uses the following great software:
 [Apache Maven](http://maven.apache.org)
 [MySQL](http://www.mysql.de)
 [AngularJS](http://angularjs.org)
+[Bootstrap](http://getbootstrap.com)
