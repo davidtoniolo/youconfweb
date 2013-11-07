@@ -61,6 +61,11 @@ code {
 <link
 	href="/.resources/ycweb-project/bootstrap/css/bootstrap-responsive.css"
 	rel="stylesheet">
+
+<link
+	href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+	rel="stylesheet">
+
 [@cms.init /]
 </head>
 <body>
@@ -94,24 +99,55 @@ code {
 
 		<!-- Begin page content -->
 		<div class="container">
+
 			<div class="page-header">
 				<h1>Sticky footer with fixed navbar</h1>
 			</div>
-			<p class="lead">
-				Pin a fixed-height footer to the bottom of the viewport in desktop
-				browsers with this custom HTML and CSS. A fixed navbar has been
-				added within
-				<code>#wrap</code>
-				with
-				<code>padding-top: 60px;</code>
-				on the
-				<code>.container</code>
-				.
-			</p>
-			<p>
-				Back to <a href="./sticky-footer.html">the sticky footer</a> minus
-				the navbar.
-			</p>
+
+			[@cms.area name="promos" /]
+
+			<ul class="nav nav-tabs" id="myTab">
+				<li class="active"><a href="#home">${model.getContent()}</a></li>
+				<li><a href="#profile">Profile</a></li>
+				<li><a href="#messages">Messages</a></li>
+				<li><a href="#settings">Settings</a></li>
+			</ul>
+
+			<div class="tab-content">
+				<div class="tab-pane active" id="home">
+					[@cms.area name="main"/]
+				</div>
+				<div class="tab-pane" id="profile">
+					<p class="lead">
+						Pin a fixed-height footer to the bottom of the viewport in desktop
+						browsers with this custom HTML and CSS. A fixed navbar has been
+						added within
+						<code>#wrap</code>
+						with
+						<code>padding-top: 60px;</code>
+						on the
+						<code>.container</code>
+						.
+					</p>
+				</div>
+				<div class="tab-pane" id="messages">
+				<i class="fa fa-camera-retro"></i> fa-camera-retro
+				<br />
+				<i class="fa fa-usd"></i> fa-usd
+				</div>
+				<div class="tab-pane" id="settings">Settings</div>
+			</div>
+
+			<script>
+				$('#myTab a').click(function(e) {
+					e.preventDefault();
+					$(this).tab('show');
+				})
+				$(function() {
+					$('#myTab a:last').tab('show');
+				})
+			</script>
+
 		</div>
 
 		<div id="push"></div>

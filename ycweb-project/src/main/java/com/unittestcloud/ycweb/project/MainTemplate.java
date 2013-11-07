@@ -97,10 +97,13 @@ public class MainTemplate {
         for (Node node : NodeUtil.getNodes(page.getSession().getNode("/home"), MgnlNodeType.NT_PAGE)) {
             if (!PropertyUtil.getBoolean(node, "hideInNavigation", false)) {
                 navigation.put(node.getPath(), PropertyUtil.getString(node, "title", ""));
+                model.put("nodeTitle", PropertyUtil.getString(node, "title", ""));
             }
         }
         model.put("navigation", navigation);
-
+        
+        model.put("test", "TEST");
+        
         return "pages/main.ftl";
     }
 

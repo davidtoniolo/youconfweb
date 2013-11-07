@@ -92,3 +92,4 @@ This project uses the following great software:
 [MySQL](http://www.mysql.de)
 [AngularJS](http://angularjs.org)
 [Bootstrap](http://getbootstrap.com)
+[Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
