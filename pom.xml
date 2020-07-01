@@ -13,7 +13,7 @@
 		<magnoliaVersion>5.1.1</magnoliaVersion>
 		<springVersion>3.2.4.RELEASE</springVersion>
 		<javaVersion>1.6</javaVersion>
-		<mysqlConnectorVersion>5.1.26</mysqlConnectorVersion>
+		<mysqlConnectorVersion>8.0.16</mysqlConnectorVersion>
 		<blossomVersion>3.0</blossomVersion>
 	</properties>
 
