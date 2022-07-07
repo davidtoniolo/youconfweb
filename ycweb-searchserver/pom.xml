@@ -13,7 +13,7 @@
 	<packaging>war</packaging>
 
 	<properties>
-		<solrVersion>4.5.0</solrVersion>
+		<solrVersion>4.10.3</solrVersion>
 		<slf4jVersion>1.7.5</slf4jVersion>
 		<log4jVersion>1.2.17</log4jVersion>
 	</properties>
